@@ -1,22 +1,12 @@
-# drf-api-permissions-postgres
-## LAB - Class 32
+# Lab: Permissions & Postgresql
 
-```
-Project: Permissions and postgres
-Author: Eman Obeidat
-Setup
-.env requirements 
-```
+### Author:Hasan Alrawaqa
 
+#### How to initialize/run your application
 
-PORT - 8000
+to run the app:
 
-How to initialize/run your application (where applicable)
-docker-compose run web python manage.py runserver
-  on http://0.0.0.0:8000/
-
-### How to use your library (where applicable)
-Tests
-
-How do you run tests?
-docker-compose run web python manage.py test
+- pip install Django
+- python manage.py runserver
+- pip freeze > requirements.txt
+- docker-compose up
